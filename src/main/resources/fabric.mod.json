@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "weatherdisplay",
+  "version": "${version}",
+  "name": "Weatherdisplay",
+  "description": "1.20 test",
+  "authors": [
+    "Rickjeh"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/weatherdisplay/Logo/logo.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.rickjeh.weatherdisplay.client.WeatherdisplayClient"
+    ],
+    "main": [
+      "dev.rickjeh.weatherdisplay.Weatherdisplay"
+    ]
+  },
+  "mixins": [
+    "weatherdisplay.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric": "*",
+    "minecraft": "1.20-alpha.23.5.a"
+  }
+}
