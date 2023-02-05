@@ -34,7 +34,6 @@ public class WeatherHudOverlay implements HudRenderCallback {
         x = width / 2;
         y = height;
 
-        RenderSystem.setShader(GameRenderer::getPositionTexShader);
         RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
 
         if(mc.world.getDimension().bedWorks() && notDisabled){
