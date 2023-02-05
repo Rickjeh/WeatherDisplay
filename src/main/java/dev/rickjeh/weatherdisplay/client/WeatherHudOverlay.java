@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.minecraft.client.gui.DrawableHelper;
 import net.minecraft.client.render.GameRenderer;
 import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 import static dev.rickjeh.weatherdisplay.client.WeatherdisplayClient.mc;
@@ -44,11 +45,7 @@ public class WeatherHudOverlay implements HudRenderCallback {
                 RenderSystem.setShaderTexture(0, RAINY_WEATHER);
             } else{
                 if(!clearDisabled){
-                    if(mc.world.getTimeOfDay() > 0 && mc.world.getTimeOfDay() < 12300){
-                        RenderSystem.setShaderTexture(0, CLEAR_WEATHER_DAY);
-                    }else{
-                        RenderSystem.setShaderTexture(0, CLEAR_WEATHER_NIGHT);
-                    }
+                    RenderSystem.setShaderTexture(0, CLEAR_WEATHER_DAY);
                 }else{
                     RenderSystem.setShaderTexture(0, DISPLAY_NONE);
                 }
