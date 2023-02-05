@@ -3,7 +3,7 @@
   "id": "weatherdisplay",
   "version": "${version}",
   "name": "Weatherdisplay",
-  "description": "Weatherdisplay mod",
+  "description": "The weatherdisplay mod",
   "authors": [
     "Rickjeh"
   ],
@@ -12,7 +12,7 @@
     "repo": "https://github.com/Rickjeh/WeatherDisplay"
   },
   "license": "MIT",
-  "icon": "assets/weatherdisplay/icon.png",
+  "icon": "assets/weatherdisplay/Logo/logo.png",
   "environment": "client",
   "entrypoints": {
     "client": [
