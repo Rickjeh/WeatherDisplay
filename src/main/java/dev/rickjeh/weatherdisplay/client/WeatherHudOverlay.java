@@ -43,11 +43,7 @@ public class WeatherHudOverlay implements HudRenderCallback {
                 RenderSystem.setShaderTexture(0, RAINY_WEATHER);
             } else{
                 if(!clearDisabled){
-                    if(mc.world.getTimeOfDay() > 0 && mc.world.getTimeOfDay() < 12300){
-                        RenderSystem.setShaderTexture(0, CLEAR_WEATHER_DAY);
-                    }else{
-                        RenderSystem.setShaderTexture(0, CLEAR_WEATHER_NIGHT);
-                    }
+                    RenderSystem.setShaderTexture(0, CLEAR_WEATHER_DAY);
                 }else{
                     RenderSystem.setShaderTexture(0, DISPLAY_NONE);
                 }
