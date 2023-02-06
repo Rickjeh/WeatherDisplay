@@ -8,8 +8,11 @@
     "Rickjeh"
   ],
   "contact": {
+    "issues": "https://github.com/Rickjeh/WeatherDisplay",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/weatherdisplay",
     "website": "https://www.curseforge.com/minecraft/mc-mods/weatherdisplay",
     "repo": "https://github.com/Rickjeh/WeatherDisplay"
+
   },
   "license": "MIT",
   "icon": "assets/weatherdisplay/Logo/logo.png",
