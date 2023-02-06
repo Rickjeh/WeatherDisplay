@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "weatherdisplay",
+  "version": "${version}",
+  "name": "Weatherdisplay",
+  "description": "The weatherdisplay mod",
+  "authors": [
+    "Rickjeh"
+  ],
+  "contact": {
+    "issues": "https://github.com/Rickjeh/WeatherDisplay",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/weatherdisplay",
+    "website": "https://www.curseforge.com/minecraft/mc-mods/weatherdisplay",
+    "repo": "https://github.com/Rickjeh/WeatherDisplay"
+  },
+  "license": "MIT",
+  "icon": "assets/weatherdisplay/Logo/logo.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.rickjeh.weatherdisplay.client.WeatherdisplayClient"
+    ],
+    "main": [
+      "dev.rickjeh.weatherdisplay.Weatherdisplay"
+    ]
+  },
+  "mixins": [
+    "weatherdisplay.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
