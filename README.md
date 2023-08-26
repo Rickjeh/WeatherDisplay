@@ -1,4 +1,4 @@
-# WeatherDisplay
+# WeatherDisplay (DISCONTINUED)
 A fabric mod that displays the weather of your minecraft world in the hud.
 
 Project: https://www.curseforge.com/minecraft/mc-mods/weatherdisplay
